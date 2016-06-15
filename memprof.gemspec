@@ -11,6 +11,6 @@ spec = Gem::Specification.new do |s|
   s.bindir = 'bin'
   s.executables << 'memprof'
   s.files = `git ls-files`.split
-  s.add_dependency('rest-client', '>= 1.4.2')
+  s.add_dependency('rest-client', '= 1.4.2')
   s.add_dependency('term-ansicolor')
 end
